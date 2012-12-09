@@ -20,7 +20,8 @@ nav,
 section,
 summary,
 project,
-dribbble
+dribbble,
+contact
 {
     display: block;
 }
@@ -127,18 +128,20 @@ a:hover {
  */
 
 h1 {
-    font-size: 2em;
+    font-family: 'EdmondSansMedium';
+    font-size: 30px;
     letter-spacing: 13px;
     color: #F5F5F5;
     margin: 0 auto;
-    padding: 65px 0 20px 0;
+    padding: 60px 0 20px 0;
     width: 450px;
     text-align: center;
     border-bottom: 1px solid #F5F5F5;
 }
 
 h2 {
-    font-size: 1.5em;
+    font-family: 'EdmondSansMedium';
+    font-size: 26px;
     color: #81a0b2;
     margin: 0 auto;
     padding: 100px 0 0 0;
@@ -165,6 +168,11 @@ h5 {
 h6 {
     font-size: 0.75em;
     margin: 0;
+}
+
+p {
+    font-family: 'EdmondSansRegular';
+    font-size: 26px;
 }
 
 /*
@@ -402,7 +410,6 @@ button,
 input,
 select,
 textarea {
-    font-size: 100%; /* 1 */
     margin: 0; /* 2 */
     vertical-align: baseline; /* 3 */
     *vertical-align: middle; /* 3 */
