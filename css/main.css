@@ -145,7 +145,7 @@ header {
     height: 300px;
     margin: 0px;
     padding: 0px;
-    background: url("../img/header.png");
+    background: url("../img/header.png") no-repeat;
     text-align: center;
     vertical-align: middle;
     color: #F5F5F5;
