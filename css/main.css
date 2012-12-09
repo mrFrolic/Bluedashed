@@ -149,8 +149,6 @@ header {
     text-align: center;
     vertical-align: middle;
     color: #F5F5F5;
-    -webkit-transition: all .3s ease-out;
-    transition: all .3s ease-out;
 }
 
 header img {
@@ -172,7 +170,52 @@ header a {
 
 /* Projects ===================================================================== */
 
+project {
+    position: relative;
+    vertical-align: middle;
+}
 
+project .encart {
+    position: relative;
+    width: 630px;
+    height: 155px;
+    margin: 30px auto;
+    background: #eaedef;
+    border: 1px solid #d9e2e8;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.encart img {
+    position: relative;
+    float: left;
+    width: 142px;
+    padding: 35px 35px 0px 85px;
+}
+
+project .details {
+    position: relative;
+    float: right;
+    width: 280px;
+    padding: 30px 85px 0px 0px;
+}
+
+project .details p {
+    font-size: 17px;
+}
+
+project .fleche {
+    position: absolute;
+    top: 235px;
+}
+
+project .gauche {
+    left: 0px;
+}
+
+project .droite {
+    right: 0px;
+}
 
 /* Dribbble ===================================================================== */
 
@@ -239,14 +282,6 @@ footer p {
 
 
 /* Hovers ===================================================================== */
-
-header:hover h1 {
-    letter-spacing: 10px;
-    -webkit-transition: all 1s ease-out;
-    transition: all 1s ease-out;
-}
-
-
 
 
 

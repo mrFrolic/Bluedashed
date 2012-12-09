@@ -120,6 +120,7 @@ a:hover {
 a {
     text-decoration: none;
     color: #81a0b2;
+    cursor: pointer;
 }
 
 /* ==========================================================================
@@ -158,8 +159,12 @@ h2 {
 }
 
 h3 {
-    font-size: 1.17em;
-    margin: 0;
+    font-family: 'EdmondSansMedium';
+    font-size: 20px;
+    text-decoration: underline;
+    color: #81a0b2;
+    margin: 0 auto;
+    font-weight: 100;
 }
 
 h4 {
