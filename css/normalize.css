@@ -18,7 +18,10 @@ header,
 hgroup,
 nav,
 section,
-summary {
+summary,
+project,
+dribbble
+{
     display: block;
 }
 
@@ -125,32 +128,43 @@ a:hover {
 
 h1 {
     font-size: 2em;
-    margin: 0.67em 0;
+    letter-spacing: 13px;
+    color: #F5F5F5;
+    margin: 0 auto;
+    padding: 65px 0 20px 0;
+    width: 450px;
+    text-align: center;
+    border-bottom: 1px solid #F5F5F5;
 }
 
 h2 {
     font-size: 1.5em;
-    margin: 0.83em 0;
+    color: #81a0b2;
+    margin: 0 auto;
+    padding: 100px 0 0 0;
+    width: 450px;
+    text-align: left;
+    border-bottom: 1px solid #d9e2e8;
 }
 
 h3 {
     font-size: 1.17em;
-    margin: 1em 0;
+    margin: 0;
 }
 
 h4 {
     font-size: 1em;
-    margin: 1.33em 0;
+    margin: 0;
 }
 
 h5 {
     font-size: 0.83em;
-    margin: 1.67em 0;
+    margin: 0;
 }
 
 h6 {
     font-size: 0.75em;
-    margin: 2.33em 0;
+    margin: 0;
 }
 
 /*
@@ -197,7 +211,7 @@ mark {
 
 p,
 pre {
-    margin: 1em 0;
+    margin: 0;
 }
 
 /*

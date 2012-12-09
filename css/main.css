@@ -95,6 +95,56 @@ textarea {
 
 
 
+/* Default ===================================================================== */
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #F5F5F5;
+}
+
+.flux {
+    position: relative;
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+/* Header ===================================================================== */
+
+header {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    margin: 0px;
+    padding: 0px;
+    background: url("../img/header.png");
+    text-align: center;
+    vertical-align: middle;
+    color: #F5F5F5;
+}
+
+header img {
+    position: absolute;
+    top: 85px;
+    left: 0px;
+}
+
+
+
+/* Footer ===================================================================== */
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    padding: 20px 0 0 0;
+    vertical-align: middle;
+    text-align: center;
+}
+
 
 
 
