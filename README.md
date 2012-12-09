@@ -1,5 +1,6 @@
-# [HTML5 Boilerplate](http://html5boilerplate.com)
+Bluedashe website
 
+<<<<<<< HEAD
 HTML5 Boilerplate is a professional front-end template for building fast,
 robust, and adaptable web apps or sites.
 
@@ -63,3 +64,6 @@ Anyone and everyone is welcome to
 of developers have helped make the HTML5 Boilerplate what it is today.
 
 Hello Bluedashed ! :)
+=======
+@lucasmarinm & @mrdenav
+>>>>>>> denav / readMe
