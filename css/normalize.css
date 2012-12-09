@@ -184,7 +184,8 @@ p {
 }
 
 p span {
-    font-weight: 700;
+    font-family: 'EdmondSansMedium';
+    font-weight: 200;
 }
 
 /*
