@@ -206,15 +206,15 @@ project .details p {
 
 project .fleche {
     position: absolute;
-    top: 235px;
+    top: 230px;
 }
 
 project .gauche {
-    left: 0px;
+    left: 80px;
 }
 
 project .droite {
-    right: 0px;
+    right: 80px;
 }
 
 /* Dribbble ===================================================================== */
