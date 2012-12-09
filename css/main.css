@@ -131,6 +131,23 @@ header img {
     left: 0px;
 }
 
+/* Projects ===================================================================== */
+
+
+
+/* Dribbble ===================================================================== */
+
+#content {
+    position: relative;
+    width: 100%;
+    height: 740px;
+    background: #eaedef;
+    border-top: 1px solid #d9e2e8;
+    border-bottom: 1px solid #d9e2e8;
+    margin-top: 30px;
+    box-shadow: inset 0px 10px 0px #e5e7e8;
+}
+
 
 
 /* Footer ===================================================================== */
