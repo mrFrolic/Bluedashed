@@ -117,6 +117,11 @@ a:hover {
     outline: 0;
 }
 
+a {
+    text-decoration: none;
+    color: #81a0b2;
+}
+
 /* ==========================================================================
    Typography
    ========================================================================== */
@@ -130,17 +135,18 @@ a:hover {
 h1 {
     font-family: 'EdmondSansMedium';
     font-size: 30px;
-    letter-spacing: 13px;
+    letter-spacing: 6px;
     color: #F5F5F5;
     margin: 0 auto;
     padding: 60px 0 20px 0;
     width: 450px;
     text-align: center;
     border-bottom: 1px solid #F5F5F5;
+    font-weight: 700;
 }
 
 h2 {
-    font-family: 'EdmondSansMedium';
+    font-family: 'EdmondSansRegular';
     font-size: 26px;
     color: #81a0b2;
     margin: 0 auto;
@@ -148,6 +154,7 @@ h2 {
     width: 450px;
     text-align: left;
     border-bottom: 1px solid #d9e2e8;
+    font-weight: 400;
 }
 
 h3 {
@@ -172,7 +179,12 @@ h6 {
 
 p {
     font-family: 'EdmondSansRegular';
-    font-size: 26px;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+p span {
+    font-weight: 700;
 }
 
 /*
