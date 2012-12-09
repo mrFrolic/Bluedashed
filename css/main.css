@@ -149,6 +149,8 @@ header {
     text-align: center;
     vertical-align: middle;
     color: #F5F5F5;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
 }
 
 header img {
@@ -236,8 +238,13 @@ footer p {
 
 
 
+/* Hovers ===================================================================== */
 
-
+header:hover h1 {
+    letter-spacing: 10px;
+    -webkit-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+}
 
 
 
