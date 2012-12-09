@@ -198,16 +198,16 @@ contact {
 }
 
 contact p {
-    padding: 50px 0 30px 0;
+    padding: 50px 0 40px 0;
 }
 
 button {
     height: 48px;
     background: #81a0b2;
     border: none;
-    padding: 4px 25px 0px 25px;
+    padding: 5px 25px 0px 25px;
     border-radius: 3px;
-    box-shadow: 0px 2px 0px #67889c, 0px 6px 0px #b8c7ce;
+    box-shadow: 0px 2px 0px #67889c, 0px 8px 0px #b8c7ce;
 }
 
 button a {
