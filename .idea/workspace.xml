@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a89e174a-7e69-4162-bc9d-e48bf9e11772" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/normalize.css" afterPath="$PROJECT_DIR$/css/normalize.css" />
     </list>
     <ignored path="Bluedashed.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +28,7 @@
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="46" column="41" selection-start="2079" selection-end="2079" vertical-scroll-proportion="0.2139738">
+                <state line="46" column="41" selection-start="2079" selection-end="2079" vertical-scroll-proportion="-0.015283843">
                   <folding />
                 </state>
               </provider>
@@ -37,13 +37,13 @@
         </leaf>
       </split-first>
       <split-second>
-        <splitter split-orientation="vertical" split-proportion="0.795501">
+        <splitter split-orientation="vertical" split-proportion="0.4212679">
           <split-first>
             <leaf>
-              <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+              <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/css/main.css">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="212" column="12" selection-start="4413" selection-end="4413" vertical-scroll-proportion="0.59345156">
+                    <state line="212" column="12" selection-start="4413" selection-end="4413" vertical-scroll-proportion="8.594595">
                       <folding />
                     </state>
                   </provider>
@@ -53,10 +53,10 @@
           </split-first>
           <split-second>
             <leaf>
-              <file leaf-file-name="normalize.css" pinned="false" current="false" current-in-tab="true">
+              <file leaf-file-name="normalize.css" pinned="false" current="true" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/css/normalize.css">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state line="166" column="18" selection-start="3218" selection-end="3218" vertical-scroll-proportion="0.6034483">
+                    <state line="144" column="36" selection-start="2805" selection-end="2805" vertical-scroll-proportion="0.43575418">
                       <folding />
                     </state>
                   </provider>
@@ -80,9 +80,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/css/normalize.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/css/normalize.css" />
       </list>
     </option>
   </component>
@@ -212,7 +212,11 @@
       <created>1355081640588</created>
       <updated>1355081640588</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="fleche position&#10;">
+      <created>1355082914867</created>
+      <updated>1355082914867</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -274,7 +278,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="img fleche" />
+    <option name="LAST_COMMIT_MESSAGE" value="fleche position&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -291,6 +295,7 @@
     <MESSAGE value="commit readMe" />
     <MESSAGE value="allDone &lt; details dans les fonts &lt; slide" />
     <MESSAGE value="img fleche" />
+    <MESSAGE value="fleche position&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -366,23 +371,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/normalize.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="166" column="18" selection-start="3218" selection-end="3218" vertical-scroll-proportion="0.6034483">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="41" selection-start="2079" selection-end="2079" vertical-scroll-proportion="0.2139738">
+        <state line="46" column="41" selection-start="2079" selection-end="2079" vertical-scroll-proportion="-0.015283843">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="212" column="12" selection-start="4413" selection-end="4413" vertical-scroll-proportion="0.59345156">
+        <state line="212" column="12" selection-start="4413" selection-end="4413" vertical-scroll-proportion="8.594595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/normalize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="144" column="36" selection-start="2805" selection-end="2805" vertical-scroll-proportion="0.43575418">
           <folding />
         </state>
       </provider>
