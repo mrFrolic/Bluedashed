@@ -17,9 +17,7 @@ select,
 textarea {
     color: #222;
 }
-html, body{
-    100%;
-}
+
 body {
     font-size: 1em;
     line-height: 1.4;
@@ -147,8 +145,8 @@ header {
     height: 300px;
     margin: 0px;
     padding: 0px;
-    background: url("../img/header.png") no-repeat;
-    background-size: cover;
+    background: url("../img/header.png") top left no-repeat;
+    background-size: 100%;
     text-align: center;
     vertical-align: middle;
     color: #F5F5F5;
