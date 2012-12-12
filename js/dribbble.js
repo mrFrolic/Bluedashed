@@ -15,6 +15,7 @@
 // Define Global Vars
 var userID, shotLimit, element, element_b = '';
 var htmlString = "\n<ul>\n"
+var all_shots = [];
 
 function getShotsForID (dribbbleID, dribbbleID_b, elm, limit)
 {
@@ -25,40 +26,32 @@ function getShotsForID (dribbbleID, dribbbleID_b, elm, limit)
     userID_b = ''+dribbbleID_b;
 
     document.addEventListener('DOMContentLoaded', function () {
-        var url = 'http://api.dribbble.com/players/'+userID+'/shots?callback=parseShots';
+
+        var url = 'http://api.dribbble.com/players/'+userID+'?callback=parseShots';
         var shots = [];
 
         /* Insert JSONP Script tag*/
         var myscript = document.createElement('script');
         myscript.src = url;
         document.body.appendChild(myscript);
-
-
     });
 }
 
 /* JSONP callback handler */
 function parseShots (shots)
 {
-
-
+    console.log(shots)
+/*
     for (var i = 0; i < shotLimit; i++)
     {
-        var shot = shots.shots[i];
-        htmlString = htmlString+"\n<li class=\"dribbble_shot\">";
-        htmlString = htmlString+"<a href=\""+shot.url+"\">";
-        htmlString = htmlString+"<img src=\""+shot.image_url+"\" alt=\""+shot.title+"\" />";
-        htmlString = htmlString+"</a>";
-        htmlString = htmlString+"</li>\n";
+      var shot = shots.shots[i];
+      all_shots.push(shot);
     }
-
-
+*/
     var url_b = 'http://api.dribbble.com/players/'+userID_b+'/shots?callback=parseShots_B';
     var myscript_b = document.createElement('script');
     myscript_b.src = url_b;
     document.body.appendChild(myscript_b);
-
-
 }
 
 function parseShots_B (shots)
@@ -67,14 +60,16 @@ function parseShots_B (shots)
     for (var i = 0; i < shotLimit; i++)
     {
         var shot = shots.shots[i];
-        htmlString = htmlString+"\n<li class=\"dribbble_shot\">";
-        htmlString = htmlString+"<a href=\""+shot.url+"\">";
-        htmlString = htmlString+"<img src=\""+shot.image_url+"\" alt=\""+shot.title+"\" />";
-        htmlString = htmlString+"</a>";
-        htmlString = htmlString+"</li>\n";
+//        htmlString = htmlString+"\n<li class=\"dribbble_shot\">";
+//        htmlString = htmlString+"<a href=\""+shot.url+"\">";
+//        htmlString = htmlString+"<img src=\""+shot.image_url+"\" alt=\""+shot.title+"\" />";
+//        htmlString = htmlString+"</a>";
+//        htmlString = htmlString+"</li>\n";
+        all_shots.push(shot);
     }
 
-    htmlString = htmlString + "\n</ul>\n";
+    //htmlString = htmlString + "\n</ul>\n";
+    //document.getElementById(element).innerHTML = htmlString;
+    console.log(all_shots[1])
 
-    document.getElementById(element).innerHTML = htmlString;
 }
