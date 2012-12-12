@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a89e174a-7e69-4162-bc9d-e48bf9e11772" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/dribbble.js" afterPath="$PROJECT_DIR$/js/dribbble.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
     </list>
     <ignored path="Bluedashed.iws" />
@@ -39,7 +38,7 @@
           <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="102" column="39" selection-start="2632" selection-end="2632" vertical-scroll-proportion="0.6971609">
+                <state line="110" column="91" selection-start="3133" selection-end="3133" vertical-scroll-proportion="0.86540484">
                   <folding />
                 </state>
               </provider>
@@ -52,7 +51,7 @@
           <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="199" column="23" selection-start="4278" selection-end="4278" vertical-scroll-proportion="0.0">
+                <state line="258" column="4" selection-start="5361" selection-end="5361" vertical-scroll-proportion="0.7719298">
                   <folding />
                 </state>
               </provider>
@@ -75,10 +74,10 @@
       <list>
         <option value="$PROJECT_DIR$/css/normalize.css" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/js/dribbble.js" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/main.css" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
@@ -241,7 +240,11 @@
       <created>1355337254224</created>
       <updated>1355337254224</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Get dribble shots">
+      <created>1355353943329</created>
+      <updated>1355353943329</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -303,7 +306,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added dribbble.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Get dribble shots" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -326,6 +329,7 @@
     <MESSAGE value="header bg-size cover" />
     <MESSAGE value="get dribbble shots first step" />
     <MESSAGE value="added dribbble.js" />
+    <MESSAGE value="Get dribble shots" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -413,13 +417,6 @@
         <state line="1" column="37" selection-start="83" selection-end="83" vertical-scroll-proportion="0.018382354" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="199" column="23" selection-start="4278" selection-end="4278" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/dribbble.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="71" column="62" selection-start="1948" selection-end="2049" vertical-scroll-proportion="0.0">
@@ -436,9 +433,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="258" column="4" selection-start="5361" selection-end="5361" vertical-scroll-proportion="0.7719298">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="39" selection-start="2632" selection-end="2632" vertical-scroll-proportion="0.6971609">
+        <state line="110" column="91" selection-start="3133" selection-end="3133" vertical-scroll-proportion="0.86540484">
           <folding />
         </state>
       </provider>

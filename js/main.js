@@ -100,6 +100,7 @@ function display_shots(){
         htmlString = htmlString+"\n<li class=\"dribbble_shot\">";
         htmlString = htmlString+"<a href=\""+shot.url+"\">";
         htmlString = htmlString+"<img src=\""+shot.image_url+"\" alt=\""+shot.title+"\" />";
+        htmlString = htmlString+"<div class=\"shot_hover_infos\">"+ shot.likes_count + " &hearts;</div>";
         htmlString = htmlString+"</a>";
         htmlString = htmlString+"</li>\n";
 
@@ -107,6 +108,7 @@ function display_shots(){
         htmlString = htmlString+"\n<li class=\"dribbble_shot\">";
         htmlString = htmlString+"<a href=\""+shot_l.url+"\">";
         htmlString = htmlString+"<img src=\""+shot_l.image_url+"\" alt=\""+shot_l.title+"\" />";
+        htmlString = htmlString+"<div class=\"shot_hover_infos\">"+ shot_l.likes_count + " &hearts;</div>";
         htmlString = htmlString+"</a>";
         htmlString = htmlString+"</li>\n";
     }

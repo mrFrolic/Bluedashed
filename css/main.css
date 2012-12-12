@@ -240,6 +240,29 @@ project .droite {
 #content .dribbble_shot > a > img{
     width: 250px;
 }
+.shot_hover_infos{
+    padding-top: 30px;
+    position: relative;
+    width: 250px;
+    text-align: center;
+    background: rgba(0,0,0,.4);
+    height: 70px;
+    left: 0;
+    margin-top: -100px;
+    color: white;
+    opacity: 0;
+
+    -webkit-transition: opacity .3s ease-out;
+    -moz-transition: opacity .3s ease-out;
+    -o-transition: opacity .3s ease-out;
+    -ms-transition: opacity .3s ease-out;
+    transition: opacity .3s ease-out;
+}
+
+.dribbble_shot a:hover > .shot_hover_infos{
+    opacity: 1;
+}
+
 /* Contact ===================================================================== */
 
 contact {
