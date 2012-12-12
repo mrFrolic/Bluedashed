@@ -1,0 +1,1 @@
+getShotsForID('denav', 'lucasmarinm', 'content', '3');
