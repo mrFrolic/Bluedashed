@@ -100,7 +100,9 @@ function display_shots(){
         htmlString = htmlString+"\n<li class=\"dribbble_shot\">";
         htmlString = htmlString+"<a href=\""+shot.url+"\">";
         htmlString = htmlString+"<img src=\""+shot.image_url+"\" alt=\""+shot.title+"\" />";
-        htmlString = htmlString+"<div class=\"shot_hover_infos\">"+ shot.likes_count + " &hearts;</div>";
+        htmlString = htmlString+"<div class=\"shot_hover_infos\">"
+                                 +"<img src=\"" + shot.player.avatar_url +"\"/>" +"<br/>"
+                                 +shot.likes_count + " &hearts;</div>";
         htmlString = htmlString+"</a>";
         htmlString = htmlString+"</li>\n";
 
@@ -108,10 +110,43 @@ function display_shots(){
         htmlString = htmlString+"\n<li class=\"dribbble_shot\">";
         htmlString = htmlString+"<a href=\""+shot_l.url+"\">";
         htmlString = htmlString+"<img src=\""+shot_l.image_url+"\" alt=\""+shot_l.title+"\" />";
-        htmlString = htmlString+"<div class=\"shot_hover_infos\">"+ shot_l.likes_count + " &hearts;</div>";
+        htmlString = htmlString+"<div class=\"shot_hover_infos\">"
+                                 +"<img src=\"" + shot_l.player.avatar_url +"\"/>" +"<br/>"
+                                 +shot_l.likes_count + " &hearts;</div>";
         htmlString = htmlString+"</a>";
         htmlString = htmlString+"</li>\n";
     }
-    htmlString = htmlString + "\n</ul>\n";
+    htmlString = htmlString + "\n</ul>\n" + "<div class=\"shots_arrow_l\"></div><div class=\"shots_arrow_r\"></div>";
     document.getElementById('content').innerHTML = htmlString;
+
+    arrows_go()
 }
+
+function arrows_go(){
+
+    $('.shots_arrow_l').css('display','none');
+    $('.shots_arrow_r').click(function(){
+        if ($('#content > ul').css('marginLeft') == '0px'){
+            $('.shots_arrow_l').css('display','block');
+        }
+        if ($('#content > ul').css('marginLeft') == '-1215px'){
+            $('.shots_arrow_r').css('display','none');
+        }
+        if ($('#content > ul').css('marginLeft') != '-1620px'){
+            $('#content > ul').animate({"margin-left": "-=405px"}, 200);
+        }
+    });
+    $('.shots_arrow_l').click(function(){
+        if ($('#content > ul').css('marginLeft') == '-1620px'){
+            $('.shots_arrow_r').css('display','block');
+        }
+        if ($('#content > ul').css('marginLeft') == '-405px'){
+            $('.shots_arrow_l').css('display','none');
+        }
+        if ($('#content > ul').css('marginLeft') != '0px'){
+            $('#content > ul').animate({"margin-left": "+=405px"}, 200);
+        }
+    });
+
+}
+

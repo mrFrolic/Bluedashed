@@ -25,6 +25,11 @@ body {
 ul{
     list-style: none;
 }
+
+html, body{
+    overflow-x: hidden;
+}
+
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection declarations have to be separate.
@@ -224,32 +229,41 @@ project .droite {
 
 #content {
     position: relative;
-    width: 100%;
-    height: 740px;
+    height: 322px;
     background: #eaedef;
     border-top: 1px solid #d9e2e8;
-    border-bottom: 1px solid #d9e2e8;
     margin-top: 30px;
     box-shadow: inset 0px 10px 0px #e5e7e8;
+
+    overflow: hidden;
+}
+
+#content ul{
+    padding-left: 20px;
+    width: 3300px;
+    margin-left: 0px;
 }
 
 #content .dribbble_shot{
     float: left;
+    margin-right: 5px;
+
 }
 
 #content .dribbble_shot > a > img{
-    width: 250px;
+    width: 400px;
+    border: 1px solid #d9e2e8;
 }
 .shot_hover_infos{
-    padding-top: 30px;
+    padding-top: 50px;
     position: relative;
-    width: 250px;
+    width: 400px;
     text-align: center;
     background: rgba(0,0,0,.4);
-    height: 70px;
+    height: 120px;
     left: 0;
-    margin-top: -100px;
-    color: white;
+    margin-top: -170px;
+    color: #bfcfd6;
     opacity: 0;
 
     -webkit-transition: opacity .3s ease-out;
@@ -259,8 +273,29 @@ project .droite {
     transition: opacity .3s ease-out;
 }
 
+.shot_hover_infos img{
+    width: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
 .dribbble_shot a:hover > .shot_hover_infos{
     opacity: 1;
+}
+
+#content .shots_arrow_l,
+#content .shots_arrow_r{
+    cursor: pointer;
+    position: absolute;
+    height: 302px;
+    width: 50px;
+    background: url(../img/fleche-gauche.png) center no-repeat, rgba(100,130,155,.4);
+}
+
+#content .shots_arrow_r{
+    background: url(../img/fleche-droite.png) center no-repeat, rgba(100,130,155,.4);
+    left: 100%;
+    margin-left: -50px;
 }
 
 /* Contact ===================================================================== */
