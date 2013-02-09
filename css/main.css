@@ -531,11 +531,10 @@ and (max-width : 320px) {
     }
 }
 
-/* iPads (landscape) ----------- */
+/* iPads (portrait and landscape) ----------- */
 @media only screen
 and (min-device-width : 768px)
-and (max-device-width : 1024px)
-and (orientation : landscape) {
+and (max-device-width : 1024px) {
     .flux{
         width: 100%;
     }
@@ -549,10 +548,19 @@ and (orientation : landscape) {
     #footer,
     #contact
     {
-        width: 900px;
+        width: 1080px;
     }
 }
 
+#header {
+    height: 600px;
+}
+
+#header img {
+    position: relative;
+    margin: -50px auto 40px auto;
+
+}
 
 /* ==========================================================================
    Print styles.
