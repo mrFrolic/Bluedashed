@@ -99,7 +99,11 @@ function display_shots(){
         var shot = shots_f[i];
         htmlString = htmlString+"\n<li class=\"dribbble_shot\">";
         htmlString = htmlString+"<a href=\""+shot.url+"\">";
-        htmlString = htmlString+"<img src=\""+shot.image_url+"\" alt=\""+shot.title+"\" />";
+        if(shot.image_400_url){
+            htmlString = htmlString+"<img src=\""+shot.image_400_url+"\" alt=\""+shot.title+"\" />";
+        }else{
+            htmlString = htmlString+"<img src=\""+shot.image_url+"\" alt=\""+shot.title+"\" />";
+        }
         htmlString = htmlString+"<div class=\"shot_hover_infos\">"
                                  +"<img src=\"" + shot.player.avatar_url +"\"/>" +"<br/>"
                                  +shot.likes_count + " &hearts;</div>";
@@ -109,7 +113,11 @@ function display_shots(){
         var shot_l = shots_l[i];
         htmlString = htmlString+"\n<li class=\"dribbble_shot\">";
         htmlString = htmlString+"<a href=\""+shot_l.url+"\">";
-        htmlString = htmlString+"<img src=\""+shot_l.image_url+"\" alt=\""+shot_l.title+"\" />";
+        if(shot.image_400_url){
+            htmlString = htmlString+"<img src=\""+shot_l.image_400_url+"\" alt=\""+shot.title+"\" />";
+        }else{
+            htmlString = htmlString+"<img src=\""+shot_l.image_url+"\" alt=\""+shot.title+"\" />";
+        }
         htmlString = htmlString+"<div class=\"shot_hover_infos\">"
                                  +"<img src=\"" + shot_l.player.avatar_url +"\"/>" +"<br/>"
                                  +shot_l.likes_count + " &hearts;</div>";
