@@ -27,7 +27,7 @@ ul{
 }
 
 html, body{
-    overflow-x: hidden;
+    width: 100%;
 }
 
 /*
@@ -234,7 +234,6 @@ project .droite {
     border-top: 1px solid #d9e2e8;
     margin-top: 30px;
     box-shadow: inset 0px 10px 0px #e5e7e8;
-
     overflow: hidden;
 }
 
