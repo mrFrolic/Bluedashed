@@ -277,7 +277,7 @@ body {
 
 .shot_hover_infos img{
     width: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .dribbble_shot a:hover > .shot_hover_infos{
@@ -315,6 +315,7 @@ body {
 
 #content .shots_arrow_l:hover,
 #content .shots_arrow_r:hover{
+    top: 144px;
     border-bottom: 1px solid #67889c;
 
 }
