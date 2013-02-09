@@ -4,7 +4,6 @@
     <list default="true" id="a89e174a-7e69-4162-bc9d-e48bf9e11772" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
     </list>
     <ignored path="Bluedashed.iws" />
@@ -24,22 +23,22 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.69898695">
+    <splitter split-orientation="horizontal" split-proportion="0.53039074">
       <split-first>
         <leaf>
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="82" column="62" selection-start="3296" selection-end="3296" vertical-scroll-proportion="-20.52">
+                <state line="23" column="23" selection-start="1298" selection-end="1298" vertical-scroll-proportion="19.8">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="123" column="66" selection-start="3660" selection-end="3660" vertical-scroll-proportion="0.56256574">
+                <state line="129" column="81" selection-start="3997" selection-end="3997" vertical-scroll-proportion="0.6556503">
                   <folding />
                 </state>
               </provider>
@@ -49,10 +48,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/main.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="306" column="1" selection-start="6239" selection-end="6239" vertical-scroll-proportion="0.80277187">
+                <state line="298" column="3" selection-start="6124" selection-end="6189" vertical-scroll-proportion="0.36842105">
                   <folding />
                 </state>
               </provider>
@@ -76,9 +75,9 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/js/dribbble.js" />
         <option value="$PROJECT_DIR$/css/normalize.css" />
-        <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/css/main.css" />
       </list>
     </option>
   </component>
@@ -275,7 +274,11 @@
       <created>1360431482154</created>
       <updated>1360431482154</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="fixed probleme d'affichage des shots (gif)&#10;">
+      <created>1360433205316</created>
+      <updated>1360433205316</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -337,7 +340,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="drbl url des images x1 si dispo" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed probleme d'affichage des shots (gif)&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -365,6 +368,7 @@
     <MESSAGE value="dribble shots dirty slideshow" />
     <MESSAGE value="dribbble.js deleted" />
     <MESSAGE value="drbl url des images x1 si dispo" />
+    <MESSAGE value="fixed probleme d'affichage des shots (gif)&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -453,23 +457,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="306" column="1" selection-start="6239" selection-end="6239" vertical-scroll-proportion="0.80277187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="62" selection-start="3296" selection-end="3296" vertical-scroll-proportion="-20.52">
+        <state line="23" column="23" selection-start="1298" selection-end="1298" vertical-scroll-proportion="19.8">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="66" selection-start="3660" selection-end="3660" vertical-scroll-proportion="0.56256574">
+        <state line="129" column="81" selection-start="3997" selection-end="3997" vertical-scroll-proportion="0.6556503">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="298" column="3" selection-start="6124" selection-end="6189" vertical-scroll-proportion="0.36842105">
           <folding />
         </state>
       </provider>

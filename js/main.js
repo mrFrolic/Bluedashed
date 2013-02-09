@@ -127,7 +127,7 @@ function display_shots(){
         htmlString = htmlString+"</a>";
         htmlString = htmlString+"</li>\n";
     }
-    htmlString = htmlString + "\n</ul>\n" + "<div class=\"shots_arrow_l\"></div><div class=\"shots_arrow_r\"></div>";
+    htmlString = htmlString + "\n</ul>\n" + "<div class=\"shots_arrow_l\">&#9664;</div><div class=\"shots_arrow_r\">&#9654;</div>";
     document.getElementById('content').innerHTML = htmlString;
 
     arrows_go()
