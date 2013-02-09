@@ -146,9 +146,9 @@ body {
 
 /* Header ===================================================================== */
 
-header {
+#header {
     position: relative;
-    width: 100%;
+    width: auto;
     height: 300px;
     margin: 0px;
     padding: 0px;
@@ -159,17 +159,17 @@ header {
     color: #F5F5F5;
 }
 
-header img {
+#header img {
     position: absolute;
     top: 85px;
     left: 0px;
 }
 
-header p {
+#header p {
     padding: 35px 0 18px 0;
 }
 
-header a {
+#header a {
     margin-left: -15px;
     font-size: 18px;
     color: #bfcfd6;
@@ -178,19 +178,18 @@ header a {
 
 /* Projects ===================================================================== */
 
-project {
+#project {
     position: relative;
     vertical-align: middle;
 }
 
-project .encart {
+#project .encart {
     position: relative;
     width: 630px;
     height: 155px;
     margin: 30px auto;
     background: #eaedef;
     border: 1px solid #d9e2e8;
-    border-radius: 8px;
     cursor: pointer;
 }
 
@@ -201,27 +200,27 @@ project .encart {
     padding: 35px 35px 0px 85px;
 }
 
-project .details {
+#project .details {
     position: relative;
     float: right;
     width: 280px;
     padding: 30px 85px 0px 0px;
 }
 
-project .details p {
+#project .details p {
     font-size: 17px;
 }
 
-project .fleche {
+#project .fleche {
     position: absolute;
     top: 230px;
 }
 
-project .gauche {
+#project .gauche {
     left: 80px;
 }
 
-project .droite {
+#project .droite {
     right: 80px;
 }
 
@@ -274,8 +273,7 @@ project .droite {
 
 .shot_hover_infos img{
     width: 30px;
-    border-radius: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .dribbble_shot a:hover > .shot_hover_infos{
@@ -299,7 +297,7 @@ project .droite {
 
 /* Contact ===================================================================== */
 
-contact {
+#contact {
     position: relative;
     width: 100%;
     height: 270px;
@@ -309,7 +307,7 @@ contact {
     vertical-align: middle;
 }
 
-contact p {
+#contact p {
     padding: 50px 0 40px 0;
 }
 
@@ -318,7 +316,6 @@ button {
     background: #81a0b2;
     border: none;
     padding: 5px 25px 0px 25px;
-    border-radius: 3px;
     box-shadow: 0px 2px 0px #67889c, 0px 8px 0px #b8c7ce;
 }
 
@@ -330,7 +327,7 @@ button a {
 
 /* Footer ===================================================================== */
 
-footer {
+#footer {
     position: relative;
     width: 100%;
     height: 40px;
@@ -340,7 +337,7 @@ footer {
     text-align: center;
 }
 
-footer p {
+#footer p {
     font-size: 17px;
 }
 
@@ -461,8 +458,8 @@ footer p {
 
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-       only screen and (min-resolution: 144dpi) {
-    /* Style adjustments for high resolution devices */
+only screen and (min-resolution: 144dpi) {
+
 }
 
 /* Smartphones (portrait) ----------- */
@@ -513,7 +510,7 @@ and (orientation : landscape) {
     #footer,
     #contact
     {
-        width: 1300px;
+        width: 900px;
     }
 }
 
