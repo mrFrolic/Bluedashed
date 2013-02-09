@@ -298,6 +298,14 @@ project .droite {
     margin-left: -50px;
 }
 
+.unselectable {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
 /* Contact ===================================================================== */
 
 contact {

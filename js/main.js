@@ -94,12 +94,15 @@ function parse_l (shots){
 }
 
 function display_shots(){
+
+    var is_gif = /.gif$/ ;
+
     for (var i = 0; i < 4; i++)
     {
         var shot = shots_f[i];
         htmlString = htmlString+"\n<li class=\"dribbble_shot\">";
         htmlString = htmlString+"<a href=\""+shot.url+"\">";
-        if(shot.image_400_url){
+        if(shot.image_400_url && !is_gif.test(shot.image_400_url)){
             htmlString = htmlString+"<img src=\""+shot.image_400_url+"\" alt=\""+shot.title+"\" />";
         }else{
             htmlString = htmlString+"<img src=\""+shot.image_url+"\" alt=\""+shot.title+"\" />";
@@ -113,7 +116,7 @@ function display_shots(){
         var shot_l = shots_l[i];
         htmlString = htmlString+"\n<li class=\"dribbble_shot\">";
         htmlString = htmlString+"<a href=\""+shot_l.url+"\">";
-        if(shot.image_400_url){
+        if(shot_l.image_400_url && !is_gif.test(shot_l.image_400_url)){
             htmlString = htmlString+"<img src=\""+shot_l.image_400_url+"\" alt=\""+shot.title+"\" />";
         }else{
             htmlString = htmlString+"<img src=\""+shot_l.image_url+"\" alt=\""+shot.title+"\" />";
