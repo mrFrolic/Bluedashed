@@ -548,19 +548,16 @@ and (max-device-width : 1024px) {
     #footer,
     #contact
     {
-        width: 1080px;
+        width: 1150px;
+    }
+
+    #header img {
+        left: 80px;
+
     }
 }
 
-#header {
-    height: 600px;
-}
 
-#header img {
-    position: relative;
-    margin: -50px auto 40px auto;
-
-}
 
 /* ==========================================================================
    Print styles.
