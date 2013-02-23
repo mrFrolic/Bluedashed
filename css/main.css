@@ -100,26 +100,6 @@ textarea {
    Fonts
    ========================================================================== */
 
-@font-face {
-    font-family: 'EdmondSansMedium';
-    src: url('../font/edmondsans-medium-webfont.eot');
-    src: url('../font/edmondsans-medium-webfont.eot?#iefix') format('embedded-opentype'),
-    url('../font/edmondsans-medium-webfont.woff') format('woff'),
-    url('../font/edmondsans-medium-webfont.ttf') format('truetype'),
-    url('../font/edmondsans-medium-webfont.svg#EdmondsansMediumRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'EdmondSansRegular';
-    src: url('../font/edmondsans-regular-webfont.eot');
-    src: url('../font/edmondsans-regular-webfont.eot?#iefix') format('embedded-opentype'),
-    url('../font/edmondsans-regular-webfont.woff') format('woff'),
-    url('../font/edmondsans-regular-webfont.ttf') format('truetype'),
-    url('../font/edmondsans-regular-webfont.svg#EdmondsansRegularRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
 
 /* ==========================================================================
    Author's custom styles
@@ -153,7 +133,7 @@ body {
     margin: 0px;
     padding: 0px;
     background: url("../img/header.png") top left no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     text-align: center;
     vertical-align: middle;
     color: #F5F5F5;
@@ -170,9 +150,7 @@ body {
 }
 
 #header a {
-    margin-left: -15px;
     font-size: 18px;
-    color: #bfcfd6;
 }
 
 
@@ -353,13 +331,28 @@ body {
 button {
     height: 48px;
     background: #81a0b2;
-    border: none;
-    padding: 5px 25px 0px 25px;
-    box-shadow: 0px 2px 0px #67889c, 0px 8px 0px #b8c7ce;
+    padding: 1px 25px 0px 25px;
+    box-shadow: 0px 2px 0px #67889c, 0px 8px 0px rgba(103, 136, 156, .25);
+    border-radius: 3px;
+    border: 1px solid #67889c;
+    border-bottom: 5px solid #67889c;
+    box-sizing: content-box;
+
+    -webkit-transition: all .4s cubic-bezier(.02,.6,.4,.99);
+    -moz-transition: all .4s cubic-bezier(.02,.6,.4,.99);
+    -o-transition: all .4s cubic-bezier(.02,.6,.4,.99);
+    -ms-transition: all .4s cubic-bezier(.02,.6,.4,.99);
+    transition: all .4s cubic-bezier(.02,.6,.4,.99);
+}
+
+button:hover{
+    margin-top: 5px;
+    border-bottom: 0px solid #67889c;
+    box-shadow: 0px 1px 0px #67889c, 0px 1px 0px rgba(103, 136, 156, .25);
 }
 
 button a {
-    font-family: 'edmondsansregular';
+    font-family: 'Asap', sans-serif;
     font-size: 20px;
     color: #F5F5F5;
 }
@@ -529,6 +522,14 @@ and (max-width : 320px) {
         margin: -50px auto 40px auto;
 
     }
+    #content .shots_arrow_l,
+    #content .shots_arrow_r{
+    opacity: 1;
+    }
+    .shot_hover_infos{
+        margin-top: -88px;
+    }
+
 }
 
 /* iPads (portrait and landscape) ----------- */
@@ -554,6 +555,19 @@ and (max-device-width : 1024px) {
     #header img {
         left: 80px;
 
+    }
+    #content .shots_arrow_l,
+    #content .shots_arrow_r{
+        opacity: 1;
+    }
+    .shot_hover_infos{
+        margin-top: -88px;
+    }
+}
+
+@media only screen and (min-device-width : 1000px) {
+    html, body{
+        min-width: 1000px;
     }
 }
 
