@@ -136,28 +136,37 @@ function display_shots(){
 function arrows_go(){
 
     $('.shots_arrow_l').css('display','none');
-    $('.shots_arrow_r').click(function(){
-        if ($('#content > ul').css('marginLeft') == '0px'){
-            $('.shots_arrow_l').css('display','block');
-        }
-        if ($('#content > ul').css('marginLeft') == '-1215px'){
-            $('.shots_arrow_r').css('display','none');
-        }
-        if ($('#content > ul').css('marginLeft') != '-1620px'){
-            $('#content > ul').animate({"margin-left": "-=405px"}, 200);
-        }
-    });
-    $('.shots_arrow_l').click(function(){
-        if ($('#content > ul').css('marginLeft') == '-1620px'){
-            $('.shots_arrow_r').css('display','block');
-        }
-        if ($('#content > ul').css('marginLeft') == '-405px'){
-            $('.shots_arrow_l').css('display','none');
-        }
-        if ($('#content > ul').css('marginLeft') != '0px'){
-            $('#content > ul').animate({"margin-left": "+=405px"}, 200);
-        }
-    });
+    $('.shots_arrow_r').click(go_right);
+    $('.shots_arrow_l').click(go_left);
 
 }
 
+function go_right(){
+    if ($('#content > ul').css('marginLeft') == '0px'){
+        $('.shots_arrow_l').css('display','block');
+    }
+    if ($('#content > ul').css('marginLeft') == '-1215px'){
+        $('.shots_arrow_r').css('display','none');
+    }
+    if ($('#content > ul').css('marginLeft') != '-1620px'){
+        $('.shots_arrow_r').unbind('click');
+        $('#content > ul').animate({"margin-left": "-=405px"}, 200, function(){
+            $('.shots_arrow_r').bind('click', go_right);
+        });
+    }
+}
+
+function go_left(){
+    if ($('#content > ul').css('marginLeft') == '-1620px'){
+        $('.shots_arrow_r').css('display','block');
+    }
+    if ($('#content > ul').css('marginLeft') == '-405px'){
+        $('.shots_arrow_l').css('display','none');
+    }
+    if ($('#content > ul').css('marginLeft') != '0px'){
+        $('.shots_arrow_l').unbind('click');
+        $('#content > ul').animate({"margin-left": "+=405px"}, 200, function(){
+            $('.shots_arrow_l').bind('click', go_left);
+        });
+    }
+}
