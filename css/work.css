@@ -1,0 +1,147 @@
+#header, #project{
+    background: white;
+    margin: 0 auto;
+    width: 800px;
+    padding: 0 40px;
+}
+
+#header{
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+}
+
+#header img{
+    margin: 20px 0 10px 0;
+}
+
+#header h1{
+    color: #444;
+    text-shadow: none;
+    font-size: 45px;
+    border: 0;
+    padding: 0;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+
+#header p{
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+html{
+    background: #F9F9F9;
+    padding-top: 20px;
+}
+body{
+    color: #888888;
+    font-family: 'asap';
+    height: 100%;
+}
+
+/* PROJETS ========================== */
+
+#project{
+    padding-top: 100px;
+    width: 800px;
+    background: white;
+}
+
+.un_projet img{
+    border-radius: 3px;
+}
+
+h2{
+    border: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    background: #F3F3F3;
+    padding: 5px 0 5px 100px;
+    width: 80%;
+    border-radius: 3px;
+    border-bottom: 4px solid #EAEAEA;
+    color: #888;
+}
+
+.slideshow{
+    text-align: center;
+}
+
+.un_projet{
+    margin-bottom: 100px;
+}
+
+.un_projet p{
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Contact ===================================================================== */
+
+#contact {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background: #bfcfd6;
+    color: #67889c;
+    text-align: center;
+    vertical-align: middle;
+    padding: 20px 0;
+    height: 100px;
+}
+
+#contact p{
+    font-size: 15px;
+}
+
+.h80{
+    height: 80px;
+}
+
+button {
+    height: 48px;
+    background: #81a0b2;
+    padding: 1px 25px 0px 25px;
+    box-shadow: 0px 2px 0px #67889c, 0px 8px 0px rgba(103, 136, 156, .25);
+    border-radius: 3px;
+    border: 1px solid #67889c;
+    border-bottom: 5px solid #67889c;
+    box-sizing: content-box;
+
+    -webkit-transition: all .4s cubic-bezier(.02,.6,.4,.99);
+    -moz-transition: all .4s cubic-bezier(.02,.6,.4,.99);
+    -o-transition: all .4s cubic-bezier(.02,.6,.4,.99);
+    -ms-transition: all .4s cubic-bezier(.02,.6,.4,.99);
+    transition: all .4s cubic-bezier(.02,.6,.4,.99);
+}
+
+button:hover{
+    margin-top: 5px;
+    border-bottom: 0px solid #67889c;
+    box-shadow: 0px 1px 0px #67889c, 0px 1px 0px rgba(103, 136, 156, .25);
+}
+
+button a {
+    font-family: 'Asap', sans-serif;
+    font-size: 20px;
+    color: #F5F5F5;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
