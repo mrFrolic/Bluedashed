@@ -1,13 +1,14 @@
 #header, #project{
     background: white;
     margin: 0 auto;
-    width: 800px;
+    width: 750px;
     padding: 0 40px;
 }
 
 #header{
     text-align: center;
     border-radius: 5px 5px 0 0;
+    padding-top: 30px;
 }
 
 #header img{
@@ -24,14 +25,21 @@
     letter-spacing: 10px;
 }
 
-#header p{
+#header div.flux p:first-of-type{
     font-weight: 700;
     font-size: 25px;
     letter-spacing: 3px;
 }
 
+p.intro{
+    font-size: 14px;
+    font-weight: 100;
+    padding-top: 10px;
+    color: #AAA;
+}
+
 html{
-    background: #F9F9F9;
+    background: #F3F3F3;
     padding-top: 20px;
 }
 body{
@@ -43,9 +51,7 @@ body{
 /* PROJETS ========================== */
 
 #project{
-    padding-top: 100px;
-    width: 800px;
-    background: white;
+    padding-top: 60px;
 }
 
 .un_projet img{
@@ -57,11 +63,12 @@ h2{
     padding: 0;
     margin-bottom: 20px;
     background: #F3F3F3;
-    padding: 5px 0 5px 100px;
+    padding: 5px 0 5px 60px;
     width: 80%;
     border-radius: 3px;
     border-bottom: 4px solid #EAEAEA;
     color: #888;
+    font-size: 20px;
 }
 
 .slideshow{
@@ -73,8 +80,24 @@ h2{
 }
 
 .un_projet p{
-    text-align: center;
+    text-align: left;
     font-size: 16px;
+    margin-bottom: 5px;
+    padding: 0 30px;
+}
+
+.tags{
+    margin-left: 30px;
+}
+
+.tag{
+    background: #BFCFD6;
+    padding: 2px 5px;
+    display: inline-block;
+    border-radius: 2px;
+    margin-right: 5px;
+    font-size: 12px;
+    color: #67889C;
 }
 
 /* Contact ===================================================================== */
